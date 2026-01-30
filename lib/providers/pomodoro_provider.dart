@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 class PomodoroProvider extends ChangeNotifier {
   Timer? _timer;
-  int _workDuration = 25 * 60;  // 25 minut w sekundach
-  int _breakDuration = 5 * 60;   // 5 minut w sekundach
+  int _workDuration = 25 * 60;  
+  int _breakDuration = 5 * 60;   
   int _currentTime = 25 * 60;
   bool _isRunning = false;
   bool _isWorkSession = true;
